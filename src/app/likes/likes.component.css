@@ -1,0 +1,9 @@
+.heart {
+  padding: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.highlighted {
+  color: deeppink;
+}

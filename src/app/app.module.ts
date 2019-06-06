@@ -4,14 +4,24 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { AuthorDataService } from './author-data.service';
+import { StarComponent } from './star/star.component';
+import { CustompipeComponent } from './custompipe/custompipe.component';
+import { FormsModule } from '@angular/forms';
+import { CustomPipe } from './custom.pipe';
+import { LikesComponent } from './likes/likes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthorsComponent
+    AuthorsComponent,
+    StarComponent,
+    CustompipeComponent,
+    CustomPipe,
+    LikesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [
     AuthorDataService
