@@ -9,6 +9,7 @@ import { CustompipeComponent } from './custompipe/custompipe.component';
 import { FormsModule } from '@angular/forms';
 import { CustomPipe } from './custom.pipe';
 import { LikesComponent } from './likes/likes.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LikesComponent } from './likes/likes.component';
     StarComponent,
     CustompipeComponent,
     CustomPipe,
-    LikesComponent
+    LikesComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,
