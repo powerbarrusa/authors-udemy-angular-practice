@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { CustomPipe } from './custom.pipe';
 import { LikesComponent } from './likes/likes.component';
 import { ZippyComponent } from './zippy/zippy.component';
+import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ZippyComponent } from './zippy/zippy.component';
     CustompipeComponent,
     CustomPipe,
     LikesComponent,
-    ZippyComponent
+    ZippyComponent,
+    NewCourseFormComponent
   ],
   imports: [
     BrowserModule,
